@@ -1,0 +1,150 @@
+#mw-page-base, #mw-head-base, #mw-navigation, #footer, #siteNotice, #coordinates, #protected-icon, #siteSub, #toc, .printfooter, #catlinks, .catlinks, .magnify, .ambox {
+	display: none !important;
+}
+
+body {
+	background: #fff !important;
+	font-family: georgia,"times new roman",times,serif !important;
+}
+
+p {
+	font-size: 1.2em !important;
+	line-height: 2.4em !important;
+	font-weight: 400 !important;
+}
+
+img {
+	border: none !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: #1a5da0 !important;
+}
+
+a:hover {
+	color: #5098e0 !important;
+}
+
+.infobox, .thumbinner, .wikitable {
+	background: #fff !important;
+	border: 1px solid #d3d3d3 !important;
+	padding: 0.5em !important;
+}
+
+#content {
+	width: 76% !important;
+	position: absolute !important;
+	top: 50px !important;
+	left: 50% !important;
+	margin-left: -38% !important;
+	padding: 0px !important;
+
+	border: none !important;
+}
+
+#firstHeading {
+	font-size: 1.8em !important;
+	font-weight: bold !important;
+
+	border-bottom: none !important;
+	border-top: none !important;
+	padding: 20px 0px !important;
+	margin: 0px !important;
+}
+
+.thumbinner {
+	border: 1px solid #ccc !important;
+	padding: 4px !important;
+}
+
+h2 {
+	border-top: 1px solid #d3d3d3 !important;
+	border-bottom: 1px solid #d3d3d3 !important;
+	padding: 20px 0px !important;
+	margin: 20px 0px !important;
+
+	font-size: 1.75em !important;
+	font-weight: bold !important;
+}
+
+.rellink, .dablink {
+	padding-left: 0px !important;
+	color: #777 !important;
+}
+
+/*---------- Head Bar ----------*/
+
+#headBar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+	background: rgba(255,255,255,0.9);
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0px;
+	z-index: 100;
+}
+
+#headBar h1 {
+	margin: 0;
+	padding: 0px 0px 0px 12%;
+	font-size: 1.5em;
+	border: none;
+	float: left;
+}
+
+#headBar form {
+	float: right !important;
+	padding: 0px 12% 0px 0px !important;
+}
+
+#simpleSearch {
+	margin-top: 0px !important;
+	background: #fff !important;
+	border: 1px solid #d3d3d3 !important;
+}
+
+#headBarMenu {
+	background: rgba(255,255,255,0.8);
+	display: block;
+	width: 1.4em;
+	height: 1.4em;
+	margin-right: 1.4em;
+	float: right;
+	border: 1px solid #d3d3d3;
+	cursor: pointer;
+}
+
+#headBarMenu:hover  {
+	border: 1px solid #1a5da0;
+}
+
+#contentMenu {
+	background: rgba(255,255,255,0.9);
+	position: fixed;
+	float: right;
+	display: block;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	right: 0;
+	z-index: 200;
+	overflow: auto;
+}
+
+.hideM {
+	width: 0px;
+	padding: 0px;
+}
+
+.showM {
+	width: auto;
+	padding: 20px 20px 0px 10px;
+}
+
+#contentMenu ul {
+	list-style-type: none !important;
+	list-style-image: none !important;
+	padding: 0px !important;
+}
