@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "wikee",
+	"description": "minimal wikipedia.",
+	"author": "Jathu Satkunarajah",
+	"version": "1.0",
+	"permissions": [
+		"http://*.wikipedia.org/wiki/*"
+	],
+	"content_scripts": [{
+		"matches": [
+			"http://*.wikipedia.org/wiki/*"
+		],
+		"css": [
+			"wikee.style.css"
+		],
+		"js": [
+			"wikee.script.js"
+		]
+	}]
+}
