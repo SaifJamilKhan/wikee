@@ -12,14 +12,17 @@ headBarMenu.id = "headBarMenu"
 var contentMenu = document.createElement("div");
 contentMenu.id = "contentMenu";
 contentMenu.className = "hideM";
-var contentMenuItems = document.getElementById("toc").children
-for(var i = 0; i < contentMenuItems.length; i++) {
-	if(contentMenuItems[i].tagName.toLowerCase() == "ul") {
-		contentMenuItems = contentMenuItems[i];
-		break;
+if(document.getElementById("toc")) {
+	var contentMenuItems = document.getElementById("toc").children
+	for(var i = 0; i < contentMenuItems.length; i++) {
+		if(contentMenuItems[i].tagName.toLowerCase() == "ul") {
+			contentMenuItems = contentMenuItems[i];
+			break;
+		}
 	}
+	contentMenu.appendChild(contentMenuItems);
 }
-contentMenu.appendChild(contentMenuItems);
+
 
 headBar.appendChild(headBarTitle);
 headBar.appendChild(searchForm);
