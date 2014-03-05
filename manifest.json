@@ -12,10 +12,15 @@
 			"http://*.wikipedia.org/wiki/*"
 		],
 		"css": [
-			"wikee.style.css"
+			"lib/wikee.style.css"
 		],
 		"js": [
-			"wikee.script.js"
+			"lib/wikee.script.js"
 		]
-	}]
+	}],
+	"icons": {
+		"16": "img/icon16.png",
+		"48": "img/icon48.png",
+		"128": "img/icon128.png"
+	}
 }
