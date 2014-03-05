@@ -1,6 +1,7 @@
 var headBar = document.createElement("div");
 headBar.id = "headBar";
 
+document.getElementById('searchInput').placeholder = "";
 var searchForm = document.getElementById("searchform").cloneNode(true);
 
 var headBarTitle = document.createElement("h1");
