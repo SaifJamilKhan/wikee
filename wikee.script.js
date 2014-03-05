@@ -55,7 +55,6 @@ function isChild(parent, child) {
 	return false;
 }
 
-
 document.addEventListener('click', function(e) {
 	if(e.target == headBarMenu) {
 		triggerMenu(false);
@@ -63,3 +62,7 @@ document.addEventListener('click', function(e) {
 		triggerMenu(true);
 	}
 }, false);
+
+window.onhashchange = function() {
+	window.scroll(0, window.scrollY - headBar.offsetHeight);
+}
