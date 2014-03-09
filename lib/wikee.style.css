@@ -26,7 +26,7 @@ a:hover {
 	color: #5098e0 !important;
 }
 
-.infobox, .thumbinner, .wikitable {
+.infobox, .thumbinner, .wikitable, .quotebox {
 	background: #fff !important;
 	border: 1px solid #d3d3d3 !important;
 	padding: 0.5em !important;
