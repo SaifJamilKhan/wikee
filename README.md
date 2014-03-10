@@ -1,4 +1,11 @@
 wikee.
 ======
 
-A chrome extension still in the making. Please feel free to fork this repo, report issues or submit a pull request.
+A Chrome extension to make Wikiepedia minimal. 
+
+![Preview](https://raw.github.com/jathu/wikee/master/preview/hidden-menu.jpg)
+
+
+---------------------------------
+
+Please feel free to report issues or create a pull request.
