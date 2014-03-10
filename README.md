@@ -1,9 +1,7 @@
 wikee.
 ======
 
-A Chrome extension to make Wikipedia minimal. 
-
-[Download at the Chrome Store.](https://chrome.google.com/webstore/detail/wikee/kokaienkahgkmammndjmfemgckbaomne)
+A Chrome extension to make Wikipedia minimal. [Download the extension at the Chrome Store.](https://chrome.google.com/webstore/detail/wikee/kokaienkahgkmammndjmfemgckbaomne)
 
 ![Preview](https://raw.github.com/jathu/wikee/master/preview/hidden-menu.jpg)
 
